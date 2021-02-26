@@ -23,10 +23,10 @@ plt.scatter(x, y, label="Principais pontos", color="k", marker=".", s=z)
 plt.legend()
 
 # salvando na resolucao comum
-plt.savefig("img/format_png.png")
+plt.savefig("matplotlib/img/formmat_png.png")
 
 # salvando em pdf(resolucao melhor)
-plt.savefig("img/format_pdf.pdf")
+plt.savefig("matplotlib/img/formmat_pdf.pdf")
 
 # salvando em PNG alterando dados de DPI
-plt.savefig("img/format_png_300dpi.png", dpi=300)
+plt.savefig("matplotlib/img/formmat_png_300dpi.png", dpi=300)
